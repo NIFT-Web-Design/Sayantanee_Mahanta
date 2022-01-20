@@ -1,9 +1,45 @@
 header {
-  background-color: #2a2a2a
+  background-color: #2a2a2a;
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0/50%);
+  vertical-align: baseline;
+  font: inherit;
 }
-#OS {
+h1 {
   background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
-}
+  background-position: center;
+   color: #ffff;
+font-family:BrandonText-Light;
+font-size: 50px;
+text-shadow: 1px 2px 2px #000;
+text-align: center;
+padding: 70px 0;
+width: 100}
+.content {
+  padding: 50px 0 70px;
+  }
+  div {
+    max-width: 1150px;
+    display: block;
+    margin: auto;
+  }
+  h2 {
+    font-family: BrandonText-Light;
+    font-size: 34px;
+    color: #0a465b;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 10px;
+  }
+  div p {
+    color: #7f969e;
+    font-size: 18px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px 0;
+    line-height: 1.4;
+    height: 100%;
+  }
 #VarietyOfServices {
   background-color: #edeff3
 }
