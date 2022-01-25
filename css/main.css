@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-
+/* ==for head styling== */
   header {
   background-color: #2a2a2a;
   box-shadow: 0px 3px 8px 0px rgb(0 0 0/50%);
@@ -13,8 +13,9 @@ body {
 li {
   display: inline-block;
 }
+/* =main= */
 /* for orange text */
-.content span, .one span {
+.content span, .one span, .three span {
   color: #ffa500
 }
 /* our services styling */
@@ -60,12 +61,10 @@ width: 100}
 .VarietyOfService{
   background-color: #edeff3;
 }
-
+/* ==section 2 styling== */
 .first article {
   width: 350px;
 }
-
-/* ==article title box styling== */
 .one h3 {
   font-size: 24px;
   box-sizing: border-box;
@@ -100,4 +99,19 @@ min-height: 110px
 flex-flow: row;
 justify-content: center;
 justify-content: space-around;
+}
+/* ==section 6 styling== */
+.VarietyOfService .sponserimg {
+  margin: auto;
+  height: 90px;
+}
+/* ==footer styling== */
+footer {
+  background-color: #504f4f;
+  display: block;
+    width: 100%;
+    line-height: 1.4;
+    color: #c7c5c5;
+    text-align: center;
+    padding: 40px 0;
 }
