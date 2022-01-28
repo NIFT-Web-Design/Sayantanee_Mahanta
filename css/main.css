@@ -32,9 +32,6 @@ header #navigation ul li a {
   color: #d4d4d4;
     font-size: 13px;
 }
-/* #navigation ul li a:hover {
-  background-color: #107698;
-     } */
 header #navigation ul li #navcontact {
   color: #FDB530;
 }
@@ -194,6 +191,7 @@ width: 80%;
 flex-flow: row;
 justify-content: space-around;
 }
+
 /* ==section 5 styling== */
 section.content .para .info {
   max-width: 850px;
@@ -232,7 +230,8 @@ section.content .para .info .contact {
 }
 
 section.content .para .info .hover a {
-  cursor: pointer;
+  /* cursor: pointer;
+    text-decoration: none; */
 }
 .hover #button {
   width: 165px;
@@ -254,6 +253,7 @@ margin-left: 65px;
   margin: auto;
   height: 90px;
 }
+
 /* ==footer styling== */
 footer {
   background-color: #504f4f;
