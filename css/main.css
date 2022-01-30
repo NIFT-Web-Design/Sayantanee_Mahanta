@@ -148,28 +148,30 @@ div>p {
 }
 
 /* ==section 3 styling== */
-#second {
+section.content #parentdiv {
+  margin-left: 180px;
+}
+.second {
   max-width: 350px;
   margin-top: 30px;
+  margin-left: 30px;
   box-sizing: border-box;
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 
-#second .two h3 {
+.second .two h3 {
   font-size: 24px;
   color: #0a465b;
   text-align: center;
   font-variant: small-caps;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-bottom: 2px solid #FDB530;
   padding: 7px 0;
   margin: auto;
   width: 80%;
 }
 
-#second .two p {
+.second .two p {
   padding: 15px;
   text-align: center;
   font-size: 16px;
@@ -220,10 +222,17 @@ div>p {
 }
 
 /* ==section 5 styling== */
+
+section.content #GITpara h2 {
+  font-size: 34px;
+  color: #0a465b;
+  text-align: center;
+  padding: 10px 0px 30px 0px;
+
+}
 section.content .info {
-  margin: 0 auto;
+  margin: 0 162px;
   display: inline-block;
-  padding-left: 100px
 }
 
 section.content .info .contact {
@@ -232,12 +241,17 @@ section.content .info .contact {
 
 section.content .info .hover {
   display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px
 }
 
 #contactpic {
   margin-left: 130px;
   border-radius: 50%;
   border: 8px solid rgba(253, 181, 48, 0.7);
+  position: relative;
+  bottom: 40px;
+  left: 30px;
 }
 
 #happytohelp {
@@ -251,15 +265,15 @@ section.content .info .hover {
   display: inline-block;
   margin-top: 16px;
   position: relative;
-  bottom: -40px;
-  right: 220px;
+  bottom: -10px;
+  right: 190px;
   line-height: 1.4;
 }
 
 .contact #separator {
   position: absolute;
-  right: 900px;
-  top: 4020px;
+  right: 860px;
+  top: 3090px;
   height: 30%;
 }
 
