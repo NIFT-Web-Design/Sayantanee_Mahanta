@@ -105,46 +105,37 @@ div>p {
 }
 
 /* ==section 2 styling== */
-.first article {
-  width: 350px;
+.first {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  background-color: #EDEff3;
+}
+.first article.one {
+  width: 260px;
+  background-color: white;
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0 /20% );
 }
 
+
 .one h3 {
-  font-size: 24px;
+  font-size: 22px;
   box-sizing: border-box;
   background-color: #107698;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: #ffff;
   text-align: center;
-  min-height: 110px;
-  font-variant: small-caps;
-  margin: 0px 10px;
-  margin-block-start: 0.83em;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
+  height: 110px;
+  text-transform: uppercase;
+  border-bottom: 5px solid lightgrey;
+  padding: 20px 10px 20px 10px;
+  line-height: 1.4;
 }
 
 .one p {
-  font-size: 16px;
-  box-sizing: border-box;
-  padding: 20px 25px 20px 25px;
-  background-color: #ffff;
+  padding: 20px 20px 30px 20px;
   color: #7f969e;
+  font-size: 18px;
   line-height: 1.4;
-  border-top: 5px solid #d1d0ce;
-  margin: 0px 10px;
-  box-shadow: 0px 2px 4px 0px rgb(0 0 0/25%);
-  min-height: 110px;
-  display: inline-block;
-}
-
-.first {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  justify-content: space-around;
 }
 
 /* ==section 3 styling== */
@@ -182,43 +173,37 @@ section.content #parentdiv {
 
 /* ==section 4 styling== */
 .third .three h3 {
-  font-size: 24px;
+  font-size: 20px;
   box-sizing: border-box;
   background-color: #107698;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: #ffff;
   text-align: center;
-  min-height: 110px;
-  font-variant: small-caps;
-  margin: 0px 20px;
-  margin-block-start: 0.83em;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
+  height: 90px;
+  text-transform: uppercase;
+  border-bottom: 5px solid lightgrey;
+  padding: 25px 10px 20px 10px;
+  line-height: 1.4
 }
 
 .third .three p {
-  font-size: 16px;
-  box-sizing: border-box;
-  padding: 20px 25px 20px 25px;
-  background-color: #ffff;
+  padding: 20px 20px 30px 20px;
   color: #7f969e;
+  font-size: 16px;
   line-height: 1.4;
-  border-top: 5px solid #d1d0ce;
-  margin: 0px 20px;
-  box-shadow: 0px 2px 4px 0px rgb(0 0 0/25%);
-  min-height: 110px
+  background-color: #ffff;
+  height: 220px;
 }
 
 .third .three {
-  max-width: 350px;
+  width: 310px;
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0 /20% );
 }
 
 #specialization {
   display: flex;
-  flex-flow: row;
-  justify-content: space-around;
+  gap: 34px;
+  background-color: #EDEff3;
+  justify-content: center;
 }
 
 /* ==section 5 styling== */
