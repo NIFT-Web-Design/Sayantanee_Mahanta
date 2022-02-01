@@ -111,12 +111,12 @@ div>p {
   justify-content: center;
   background-color: #EDEff3;
 }
+
 .first article.one {
   width: 260px;
   background-color: white;
-  box-shadow: 0px 3px 8px 0px rgb(0 0 0 /20% );
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0 /20%);
 }
-
 
 .one h3 {
   font-size: 22px;
@@ -142,6 +142,7 @@ div>p {
 section.content #parentdiv {
   margin-left: 180px;
 }
+
 .second {
   max-width: 350px;
   margin-top: 30px;
@@ -196,7 +197,7 @@ section.content #parentdiv {
 
 .third .three {
   width: 310px;
-  box-shadow: 0px 3px 8px 0px rgb(0 0 0 /20% );
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0 /20%);
 }
 
 #specialization {
@@ -207,17 +208,17 @@ section.content #parentdiv {
 }
 
 /* ==section 5 styling== */
-
 section.content #GITpara h2 {
   font-size: 34px;
   color: #0a465b;
   text-align: center;
   padding: 10px 0px 30px 0px;
-
 }
+
 section.content .info {
   margin: 0 162px;
   display: inline-block;
+  position: relative;
 }
 
 section.content .info .contact {
@@ -235,8 +236,8 @@ section.content .info .hover {
   border-radius: 50%;
   border: 8px solid rgba(253, 181, 48, 0.7);
   position: relative;
-  bottom: 40px;
-  left: 30px;
+  bottom: 50px;
+  left: 140px;
 }
 
 #happytohelp {
@@ -250,16 +251,15 @@ section.content .info .hover {
   display: inline-block;
   margin-top: 16px;
   position: relative;
-  bottom: -10px;
-  right: 190px;
+  bottom: 10px;
+  right: 100px;
   line-height: 1.4;
 }
 
 .contact #separator {
-  position: absolute;
-  right: 860px;
-  top: 3090px;
-  height: 30%;
+  right: 30px;
+  top: 80px;
+  height: 25%;
 }
 
 .hover a #button {
