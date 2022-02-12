@@ -1,12 +1,21 @@
 body {
   background-color: #2e2828;
-  position: relative;
+
 }
 section.board {
-  background-color: pink;
+  background-color: #bfa097;
   height: 650px;
   width: 500px;
-  bottom: 30px;
-  right: 200px;
+float: center;
   border: 1px solid black;
+}
+.board #pp {
+  float: left;
+}
+.board .writeup {
+  background-color: #ffff;
+  border: 2px solid #ffffff;
+  height: 600px;
+  width: 400px;
+  font-size: 8px
 }
