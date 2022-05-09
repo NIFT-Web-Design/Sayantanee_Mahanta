@@ -1,17 +1,34 @@
 body {
-  background-color: #2e2828;
+  background-color: #1f282b;
 }
 
 section.board {
-  background-color: #bfa097;
+  background-color: #ffff;
   height: 700px;
   width: 500px;
-  border: 1px solid black;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 25px;
+}
+
+.board .writeup {
+  background-color: #01364a;
+  height: 150px;
 }
 
 .board #pp {
+ display: inline;
+ margin: 15px 0 0 20px;
+}
+
+.writeup #contactdetails {
+  display: inline;
+    position: relative;
+    bottom: 110px;
+    left: 150px;
+    color: #ffff;
+    font-size: 12px;
+}
+/* .board #pp {
   float: left;
   padding: 20px 0 0 25px;
 }
@@ -41,4 +58,4 @@ margin: 50px 0 0 -40px;
 div.profiles .Detail {
   display: inline-block;
   margin: 40px 0 0 10px;
-}
+} */
