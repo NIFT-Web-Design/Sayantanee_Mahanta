@@ -38,16 +38,20 @@ header nav a {
 }
 /* body styling */
 
+/* for subheads */
+section.partA h2, section.partB h2, section.partC h2, section.partD h2{
+  font-size: 40px;
+  color: #614d19;
+  text-shadow: 1px 2px 2px #ababab;
+}
+
 /* Introduction */
 main .partA {
   background-color: #f0e3b1;
   padding: 50px 100px 50px 100px;
   text-align: center;
 }
-section.partA h2 {
-  font-size: 40px;
-  color: #614d19;
-}
+
 section.partA p {
   margin-top: 15px;
   color: #7d6f4b;
@@ -59,10 +63,7 @@ main .partB {
   padding: 50px 100px 50px 100px;
   text-align: center;
 }
-section.partB h2 {
-  font-size: 40px;
-  color: #614d19;
-}
+
 section.partB p {
   margin-top: 15px;
   color: #7d6f4b;
@@ -72,19 +73,24 @@ section.partB p {
 /* collection */
 section.partC {
   background-color: #f0e3b1;
-  padding: 50px 100px 50px 100px;
  text-align: center;
 }
-section.partC h2 {
-  font-size: 40px;
-  color: #614d19;
+.partC h2{
+  padding: 20px 0 10px 0
 }
 .partC #coll {
   background-image: linear-gradient(to right, rgba(117, 108, 50), rgba(222, 208, 115), rgba(117, 108, 50));
   height: 250px;
-
+  padding-top: 40px;
 }
-.partC #coll .pictures {
-  padding-top: 10px;
 
+/* objective */
+section.partD {
+  padding: 50px 100px 50px 100px;
+  text-align: center;
+}
+.partD .list {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 20px;
 }
