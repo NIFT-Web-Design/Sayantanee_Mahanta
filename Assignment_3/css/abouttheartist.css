@@ -1,13 +1,68 @@
 section.about {
-  background-color: #d9cb73;
+  background-color: #faf1d2;
   display: flex;
   padding: 20px 25px;
   font-size: 20px;
 }
+
 .about img {
   border: 4px solid #faf9f2;
-box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
 }
+
 section.about .content {
   margin-left: 15px;
+}
+
+.about .content .c1 span {
+  font-style: italic;
+}
+
+.about .content .c1 p {
+  margin-block-start: 2px;
+  margin-block-end: 2px;
+}
+
+section.backstory {
+  background-color: #b3a166;
+  padding: 20px;
+}
+
+.backstory h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px 2px #000;
+  ;
+  font-size: 50px
+}
+
+.backstory .parts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.parts .origin, .parts .Patronage {
+  background-color: white;
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 20%);
+}
+
+.origin h3, .Patronage h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 25px
+}
+
+.origin p {
+  text-align: left;
+  width: 550px;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.Patronage p {
+  text-align: left;
+  width: 550px;
+  font-size: 20px;
+  margin: 15px;
 }
