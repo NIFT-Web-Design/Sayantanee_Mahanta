@@ -1,0 +1,140 @@
+body {
+  margin: 0px;
+  width: content;
+}
+
+.ps {
+  background-color: #f0e3b1;
+}
+
+.ps h1 {
+  font-size: 50px;
+  text-align: center;
+  background-image: url(https://www.unnatisilks.com/blog/wp-content/uploads/2015/03/32.jpg);
+  height: 280px;
+  text-shadow: 1px 2px 2px #ababab;
+  color: #ffff;
+  padding-top: 65px;
+}
+
+.ps>p {
+  padding: 0 20px 40px 20px;
+  font-size: 20px;
+  color: #7d6f4b;
+  text-align: center;
+}
+
+.ps .points, .ps .pointt,
+.ps .pointu {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row;
+  margin: 0 15px
+}
+
+.ps .points li, .ps .pointt li, .ps .pointu li {
+  border: 2px solid #d4d3d2;
+  border-radius: 50px;
+  background-color: #faf5e8;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+  font-size: 16px;
+  text-align: center;
+  margin: 20px 8px 1px;
+  padding: 10px 20px;
+}
+
+.psa {
+  display: flex;
+  justify-content: space-between;
+}
+
+.psa img {
+  position: relative;
+  bottom: 10px;
+  right: 10px
+}
+
+.psa .para1 h2 {
+  font-size: 30px;
+  text-shadow: 1px 2px 2px #dedede;
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+.psa .para1 p, .psb .para2 p {
+  margin: 0 25px 0 10px;
+  font-size: 20px;
+  color: #7d6f4b;
+}
+
+.psb {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0e3b1;
+  padding-bottom: 32px
+}
+
+.psb .para2 h2 {
+  font-size: 30px;
+  text-shadow: 1px 2px 2px #dedede;
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+.psb img {
+  position: relative;
+  top: 20px;
+  left: 10px
+}
+
+.psb .para2 p {
+  margin: 0 25px 0 10px;
+  font-size: 16px;
+  color: #7d6f4b;
+}
+
+footer {
+  background-color: #a39a81;
+  height: 180px
+}
+
+footer div.end1 {
+  display: flex;
+  position: relative;
+  left: 600px;
+  top: 30px
+}
+
+footer div.end1 h2 {
+  display: block;
+  font-size: 45px;
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+  font-weight: lighter;
+  margin-top: 20px
+}
+
+footer div.end1 img#divide {
+  position: relative;
+  bottom: 30px
+}
+
+footer div.end1 img {
+  margin: 30px 10px 0 10px
+}
+
+footer div.end2 {
+  display: block;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+  text-align: center;
+}
+
+footer div.end2 p {
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+  font-size: 16px
+}
