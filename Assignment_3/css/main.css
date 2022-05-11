@@ -94,3 +94,49 @@ section.partD {
   margin-top: 30px;
   font-size: 20px;
 }
+/* for footer */
+footer {
+  background-color: #a39a81;
+  height: 180px
+}
+
+footer div.end1 {
+  display: flex;
+  position: relative;
+  left: 600px;
+  top: 30px
+}
+
+footer div.end1 h2 {
+  display: block;
+  font-size: 45px;
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+  font-weight: lighter;
+  margin-top: 20px
+}
+
+footer div.end1 img#divide {
+  position: relative;
+  bottom: 30px
+}
+
+footer div.end1 img {
+  margin: 30px 10px 0 10px
+}
+
+footer div.end2 {
+  display: block;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+  text-align: center;
+}
+
+footer div.end2 p {
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+  font-size: 16px
+}
