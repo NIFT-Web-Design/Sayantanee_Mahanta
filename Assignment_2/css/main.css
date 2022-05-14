@@ -16,36 +16,64 @@ section.board {
 }
 
 .board #pp {
- display: inline;
- margin: 15px 0 0 20px;
+  display: inline;
+  margin: 15px 0 0 20px;
 }
 
 .writeup #contactdetails {
   display: inline;
-    position: relative;
-    bottom: 110px;
-    left: 150px;
-    color: #ffff;
-    font-size: 12px;
+  position: relative;
+  bottom: 110px;
+  left: 150px;
+  color: #ffff;
+  font-size: 12px;
 }
 
 h2#name {
   position: relative;
-    left: 150px;
-    bottom: 90px;
-    font-size: 20px;
-    color: #ffff;
+  left: 150px;
+  bottom: 90px;
+  font-size: 20px;
+  color: #ffff;
 }
 
-div.profiles img {
+div.leftcolumn img {
   margin-left: 30px;
-    position: relative;
-    bottom: 50px;
-    width: 0.7px
+  position: relative;
+  bottom: 50px;
+  width: 0.7px
 }
-div.profiles .Detail {
-  display: inline-block;
-    margin-left: 10px;
-    position: absolute;
 
+div.leftcolumn .Detail {
+  display: inline-block;
+  margin-left: 10px;
+  position: absolute;
+}
+
+/* divisions */
+.columns {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.columns .leftcolumn .Detail {
+  position: relative;
+  bottom: 60px
+}
+
+.columns .rightcolumn {
+  width: 200px;
+  position: relative;
+  left: 80px;
+  bottom: 50px;
+}
+
+.columns .leftcolumn .Detail .left, .columns .rightcolumn .right {
+  margin-bottom: 10px
+}
+.columns .leftcolumn .Detail .left h2, .columns .rightcolumn .right h2 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #00000;
+  padding: 5px 0
 }
