@@ -29,6 +29,11 @@ section.board {
   font-size: 12px;
 }
 
+#contactdetails nav h1 a{
+  text-decoration: none;
+  color: #5fadde;
+}
+
 h2#name {
   position: relative;
   left: 150px;
@@ -56,24 +61,49 @@ div.leftcolumn .Detail {
   justify-content: space-between;
 }
 
+/* leftcolumn */
 .columns .leftcolumn .Detail {
   position: relative;
   bottom: 60px
 }
 
+.columns .leftcolumn .Detail .left{
+margin-bottom: 10px;
+}
+
+.columns .leftcolumn .Detail .left h2 {
+font-weight: bold;
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+/* rightcolumn */
 .columns .rightcolumn {
   width: 200px;
   position: relative;
-  left: 80px;
-  bottom: 50px;
+  left: 69px;
+  bottom: 58px;
+  background-color: #A3C3CC;
 }
 
-.columns .leftcolumn .Detail .left, .columns .rightcolumn .right {
-  margin-bottom: 10px
+ .columns .rightcolumn .right {
+  margin-bottom: 10px;
+  padding: 0 20px
 }
-.columns .leftcolumn .Detail .left h2, .columns .rightcolumn .right h2 {
-  font-weight: normal;
-  font-size: 18px;
-  color: #00000;
-  padding: 5px 0
+
+ .columns .rightcolumn .right h2 {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 0;
+  background-color: #CEE7EF;
+  border: 0.5px solid #CEE7EF;
+  position: relative;
+    right: 20px;
+    text-align: center;
+}
+
+.columns .rightcolumn .right p{
+  text-align: left;
+  font-size: 14px;
+  padding-top: 5px
 }
